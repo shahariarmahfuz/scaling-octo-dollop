@@ -1,0 +1,9 @@
+name = "iptv-proxy-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# KV Namespace Binding
+# আপনাকে Cloudflare Dashboard থেকে ID টি এনে এখানে বসাতে হবে
+[[kv_namespaces]]
+binding = "IPTV_KV"
+id = "384f5eaf8d854fb3a516fdfb3b9c5df2"
